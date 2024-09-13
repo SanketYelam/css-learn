@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <Style>
+        h1{
+            background-color: seagreen;
+        }
+        .bg-blue{
+            background-color: blue;
+        }
+        #bg-red{
+            background-color: red;
+        }
+
+        a[target="_blank"]{
+            background-color: rgb(30, 0, 255);
+            color:black;
+        }
+        h1,h2,h3{
+            color: aquamarine;
+        }
+
+        ul li{
+            color:#19e849;
+        }
+
+        header > a{
+            background-color: blueviolet;
+        }
+
+        img+p{ 
+            background-color: green; 
+        }
+    </Style>
+</head>
+<body>
+    <header>
+        <a href="">
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe corrupti voluptatem doloribus sed eaque magnam, expedita at aliquid iste libero.
+        </a>
+    </header>
+    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, quisquam.</h1>
+    <h2 class="bg-blue">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+    <h3 id="bg-red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, inventore veritatis.</h3>
+
+    <div>
+        <img src="" alt="">
+        <p>change me one</p>
+        <p>change me two</p>
+        <p>change me three</p>
+    </div>
+
+    <a target="_parent" href="https://www.youtube.com"">Yotube</a>
+    <a style="display: block;" target="_blank" href="https://www.google.com">Google</a>
+
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <li>four</li>
+</body>
+</html>

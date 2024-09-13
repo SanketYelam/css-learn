@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SelectorLearn</title>
+    <Style>
+        h1:hover{
+            background-color: red;
+            color: rgb(241, 232, 232);
+        }
+        button:hover{
+            color: white;
+            background-color: seagreen;
+        }
+        input:hover{
+              color: red;
+              background-color: #c6125a;
+        }
+        h1::after{
+            content:"!!!!!!";
+            color: blueviolet;
+            
+        }
+        p::first-letter{
+           background-color: #c6125a;
+           font-size: 22px; 
+           padding:3px;
+        }
+        label{
+            background-color: aqua;
+
+        }
+    </Style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, esse.</h2>
+    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi temporibus quaerat repudiandae labore libero quidem!</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repudiandae debitis nemo, incidunt quae molestiae fuga voluptatum eius! Exercitationem, quidem sapiente? Hic!</p>
+    <div>
+        <form action="">
+            <label for="email"name="email"placeholder="email">
+Email
+            </label>
+            <input type="text">
+            <button type="submit">Login</button></form>
+    </div>
+</body>
+</html>
